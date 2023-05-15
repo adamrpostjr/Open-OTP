@@ -1,6 +1,6 @@
 {
   "name": "Open-OTP",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Adam Post",
   "license": "MIT",
@@ -12,5 +12,17 @@
     "crypto": "^1.0.1",
     "thirty-two": "^1.0.2"
   },
-  "type": "module"
+  "type": "module",
+  "keywords": [
+    "otp",
+    "one time passcode",
+    "TOTP",
+    "Time-based One-Time Password",
+    "2fa",
+    "Two-factor authentication",
+    "Security",
+    "Cryptography",
+    "Authentication",
+    "Base32 encoding",
+  ]
 }

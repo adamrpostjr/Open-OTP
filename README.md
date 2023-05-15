@@ -23,7 +23,7 @@ const totp = new TOTP(secret);
 const otp = totp.generateTOTP();
 
 // Verify a TOTP
-const verification = totp.verifyTOTP(otp);
+const verification = totp.verifyTOTP(otp.toString());
 
 console.log(verification);
 // Output: { success: true, message: 'TOTP verified' }

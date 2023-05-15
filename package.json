@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Adam Post",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamrpostjr/Open-OTP"
+  },
   "dependencies": {
     "crypto": "^1.0.1",
     "thirty-two": "^1.0.2"
